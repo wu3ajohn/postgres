@@ -5,6 +5,7 @@ on:
     branches: [ "REL7_4_STABLE" ]
   pull_request:
     branches: [ "REL7_4_STABLE" ]
+  workflow_dispatch:
 
 jobs:
   build:
